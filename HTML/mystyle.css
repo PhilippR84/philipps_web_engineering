@@ -1,0 +1,62 @@
+/* h1: Überschrift Zeile 1 in der Größe 30px */
+h1 {font-size: 30px;}
+
+/* h2: Überschrift Zeile 2 in der Größe 20px */
+h2 {font-size: 20px;}
+
+/* Allgemeine Klasse für p, h2 und h1 
+Alle p, h2 und h1 werden in der Farbe Blau und in der Mitte angezeigt
+*/
+p, h2, h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* para1: Weiß noch nicht genau  */
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+/* .center wird verwendet wenn zum Beispiel ein p aufgerufen wird
+Anwendung <p class="center">
+P wird gelb und in die mitte gerutscht  */
+.center{
+    text-align: center;
+    color: yellow;
+}
+
+/* p.center bei P und Center verwendet wird wird das verwendet  */
+p.center{
+    text-align: center;
+    color: red;
+}
+
+/* Border als Klasse hinzugefügt */
+.border{
+    border-style: solid;
+    border-color: red green blue yellow;
+}
+
+.borderbottom{
+    border-bottom: 6px solid red;
+}
+/* *Alles wird so vormatiert  */
+*{
+    text-align: left;
+    color: purple;
+}
+
+/* Body also das ganze Dokument */
+body{
+   /* background-color: linen; */
+   background-image: url("https://img.freepik.com/vektoren-kostenlos/dunkler-sechseckiger-hintergrund-mit-verlaufsfarbe_79603-1409.jpg");
+  background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-size:cover;
+}
+
+p{
+    /* background-color: linen; */
+    background-color: linen;
+ }

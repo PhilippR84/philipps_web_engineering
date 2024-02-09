@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Nabla";
+    src: url("./Nabla-Regular-VariableFont_EDPT\,EHLT.ttf");
+}
+*{
+    font-family: "Nabla", sans-serif;
+}

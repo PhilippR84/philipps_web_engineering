@@ -1,0 +1,10 @@
+.imgWrap {
+    background:url(OffenerPc.jpg)no-repeat;
+    width: 1000px;
+    height: 1000px;
+}
+.gpu{
+    position: relative;
+    top: 540px;
+    left: 250px;
+}

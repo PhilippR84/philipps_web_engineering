@@ -1,0 +1,16 @@
+.schwarz{
+    background-color: black;
+    color: white;
+}
+.Rot{
+    background-color: red;
+    color: white;
+}
+.Gold{
+    background-color: gold;
+    color: white;
+}
+
+*{
+    font-family: KAUSHAN SCRIPT;
+}

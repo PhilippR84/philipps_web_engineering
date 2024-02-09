@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.zoom-container {
+    overflow: hidden;
+    position: relative;
+    width: 400px; /* Breite deines Bildcontainers */
+    height: 400px; /* Höhe deines Bildcontainers */
+}
+
+.zoom-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-container:hover img {
+    transform: scale(1.2); /* Hier kannst du den Zoom-Faktor anpassen */
+}

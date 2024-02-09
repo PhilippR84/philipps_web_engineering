@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Indie Flower";
+    src: url("https://www.wierbicki.org/_demo/fonts/IndieFlower.ttf");
+}
+*{
+    font-family: "Indie Flower";
+}
